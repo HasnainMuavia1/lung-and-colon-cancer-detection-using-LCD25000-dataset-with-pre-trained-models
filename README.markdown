@@ -27,7 +27,15 @@ colon cancer detection using the LCD25000 dataset.
             -   colon_n (Colon Benign Tissue)
 
             -   colon_aca (Colon Adenocarcinoma)
-
+            -   
+**Requirements:**
+- tensorflow
+- python 3.x
+- numpy
+- pandas
+- keras
+- sklearn
+- 
 **Models:**
 
 -   DenseNet121
@@ -101,59 +109,48 @@ The best performing model was VGG-16 with a test accuracy of 99.24%.
 
 ![A graph with a line and a line Description automatically generated
 with medium
-confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image1.png){width="4.491201881014873in"
-height="3.349643482064742in"}
+confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image1.png)
 
 **Loss:**
 
 ![A graph with red and blue lines Description automatically
-generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image2.png){width="5.791964129483815in"
-height="4.340500874890639in"}
+generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image2.png)
 
 **Confusion matrics:**
 
 ![A diagram of a number of cells Description automatically generated
 with medium
-confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image3.png){width="6.268055555555556in"
-height="5.3in"}
-
+confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image3.png)
 **VGG-16**
 
 **Accuracy:**
 
 ![A graph with a line and a red line Description automatically
-generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image4.png){width="4.705426509186352in"
-height="3.681332020997375in"}
+generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image4.png)
 
 **Loss:**
 
 ![A graph of a line Description automatically generated with medium
-confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image5.png){width="5.651388888888889in"
-height="4.348611111111111in"}
+confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image5.png)
 
 **confusion matrix:**
 
 ![A diagram of a number of cells Description automatically generated
 with medium
-confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image6.png){width="6.268055555555556in"
-height="5.3in"}
-
+confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image6.png)
 **VGG-19**
 
 **Accuracy:**
 
 ![A graph with a red line and blue line Description automatically
-generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image7.png){width="4.790697725284339in"
-height="3.748044619422572in"}
+generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image7.png)
 
 **Loss:**
 
 ![A graph with a red line and blue line Description automatically
-generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image8.png){width="5.558333333333334in"
-height="4.348611111111111in"}
+generated](vertopal_9343de9989524c4e8b53a44758a9c201/media/image8.png)
 
 **Confusion matrix:**
 
 ![A diagram of a diagram Description automatically generated with medium
-confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image9.png){width="6.268055555555556in"
-height="5.3in"}
+confidence](vertopal_9343de9989524c4e8b53a44758a9c201/media/image9.png)
