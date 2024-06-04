@@ -92,16 +92,12 @@ The best performing model was VGG-16 with a test accuracy of 99.24%.
 
 **Model Performance on LCD25000 Dataset (Including Training Results)**
 
-  -------------------------------------------------------------------------------
-  Model         Train    Train      Validation   Validation   Test     Test
-                Loss     Accuracy   Loss         Accuracy     Loss     Accuracy
-  ------------- -------- ---------- ------------ ------------ -------- ----------
-  DenseNet121   0.0096   0.9979     0.0228       0.9940       0.0290   0.9904
+| Model     | Train Loss | Train Accuracy | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy |
+| ---------- | --------: | --------------: | --------------: | --------: | --------: | --------: |
+| DenseNet121 | 0.0096     | 0.9979           | 0.0228           | 0.9940     | 0.0290     | 0.9904     |
+| VGG-16     | 0.0089     | 0.9975           | 0.0205           | 0.9900     | 0.0254     | 0.9924     |
+| VGG-19     | 0.0110     | 0.9965           | 0.0270           | 0.9896     | 0.0283     | 0.9892     |
 
-  VGG-16        0.0089   0.9975     0.0205       0.9900       0.0254   0.9924
-
-  VGG-19        0.0110   0.9965     0.0270       0.9896       0.0283   0.9892
-  -------------------------------------------------------------------------------
 
 **DenseNet121:**
 
